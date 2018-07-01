@@ -30,7 +30,15 @@ function makeGrid(){
     // when a user clicks on a cell,apply color to the cell based on color selected.
     $('td').click(function addColor(e){
         let chosenColor=$('#colorPicker').val();// Gets color from user
-        $(this).css('background-color',chosenColor);
+        
+        // Remove existing color from  cell
+        if($(this).attr('style')){
+            $(this).css('background-color','');
+        }
+        // Adds color to cell
+        else{
+            $(this).css('background-color',chosenColor);
+        }
     })
 };
 
