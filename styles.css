@@ -1,0 +1,89 @@
+/* Styles the main header */
+h1 {
+    font-family: "Consolas", monospace, sans-serif;
+    font-size: 70px;
+    margin: 0.2em;
+    border: 1px dashed black;
+    background-color:black;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Styles the body */
+body {
+    text-align: center;
+    font-family: "Consolas", sans-serif;
+    padding: 50px;
+    outline-color:black;
+    outline-style: ridge;
+    outline-width: 3px;
+    box-sizing: border-box;
+}
+
+/* Styles the div element */
+.content {
+    
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    width: 60%; 
+    margin: auto;
+    box-shadow: 0px 5px 15px 0px rgba(153,153,153,0.5);
+    box-sizing: border-box;
+}
+
+/* Styles  <h2> */
+.h2 {
+    margin: 1em 0 0.25em;
+}
+
+.h2:first-of-type {
+
+    margin-top: 0.5em;
+}
+
+/* Styles the form input  */
+input[type=number] {
+    width: 4em;
+    border: 1px solid black;
+    border-radius: 1px;
+    margin-bottom: 1em;
+}
+
+/* Styles the submit and reset buttons */
+input[type=submit],
+input[type=reset] {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+input[type=submit]:hover,
+input[type=reset]:hover {
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-family: "Consolas", sans-serif;
+}
+
+/* Styles the Grid Table */
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 30px;
+}
+
+td {
+    width: 30px;
+}
+
