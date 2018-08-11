@@ -1,7 +1,7 @@
 /* Styles the main header */
 h1 {
     font-family: "Consolas", monospace, sans-serif;
-    font-size: 70px;
+    font-size: 40px;
     margin: 0.2em;
     border: 1px dashed black;
     background-color:black;
